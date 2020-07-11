@@ -1,0 +1,19 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Razor2Pdf Sample";
+}
+
+<h1>Razor2Pdf Sample</h1>
+
+<form method="post" asp-page-handler="report">
+    <div class="form-row">
+        <div class="form-group">
+            <label asp-for="Name" class="control-label"></label>
+            <input asp-for="Name" class="form-control" />
+        </div>
+    </div>
+    <div class="form-row">
+        <input type="submit" value="Download PDF" class="btn btn-primary" />
+    </div>
+</form>
