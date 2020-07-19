@@ -1,5 +1,6 @@
 PROJECT_NAME = "Razor2Pdf"
 PROJECT_BRIEF = "Renders APS.NET Core Razor Pages as PDFs using WeasyPrint"
+PROJECT_NUMBER = $(VERSION)
 
 INPUT = . ../src
 USE_MDFILE_AS_MAINPAGE = main.md
