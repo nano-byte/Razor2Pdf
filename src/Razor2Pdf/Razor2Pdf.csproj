@@ -20,11 +20,12 @@
 
   <!-- NuGet package metadata -->
   <PropertyGroup>
-    <Description>Renders Razor Pages as PDFs</Description>
+    <Description>Razor2Pdf renders APS.NET Core Razor Pages as PDFs using WeasyPrint</Description>
     <Authors>Bastian Eicher</Authors>
     <Copyright>Copyright Bastian Eicher</Copyright>
     <PackageProjectUrl>https://razor2pdf.nano-byte.net/</PackageProjectUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageTags>Razor;Pages;PDF;WeasyPrint</PackageTags>
     <RepositoryUrl>https://github.com/nano-byte/razor2pdf</RepositoryUrl>
   </PropertyGroup>
 
