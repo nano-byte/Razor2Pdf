@@ -1,5 +1,7 @@
 Razor2Pdf renders [APS.NET Core Razor Pages](https://docs.microsoft.com/en-us/aspnet/core/razor-pages/) as PDFs using [WeasyPrint](https://weasyprint.org/).
 
+[**GitHub repository**](https://github.com/nano-byte/Razor2Pdf)
+
 ## Usage
 
 1. Ensure that the `weasyprint` command is in your `PATH`. You can:
@@ -15,5 +17,3 @@ FileStreamResult result = await pdfRenderer.RenderAsync("path/to/my/view", new M
 ```
 
 See the [sample project](https://github.com/nano-byte/Razor2Pdf/tree/master/src/Sample/) for more details.
-
-[**GitHub repository**](https://github.com/nano-byte/Razor2Pdf)
