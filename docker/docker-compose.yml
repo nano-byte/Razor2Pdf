@@ -1,0 +1,9 @@
+version: '3'
+services:
+  weasyprint-aspnet-core:
+    image: weasyprint/aspnet-core:${NETCORE_VERSION}-${WEASYPRINT_VERSION}
+    build:
+      context: .
+      args:
+        NETCORE_VERSION: ${NETCORE_VERSION}
+        WEASYPRINT_VERSION: ${WEASYPRINT_VERSION}
