@@ -21,18 +21,23 @@ namespace NanoByte.Razor2Pdf
     {
         private readonly IRazorViewEngine _viewEngine;
         private readonly ITempDataProvider _tempDataProvider;
+        private readonly IHttpContextAccessor _contextAccessor;
         private readonly IServiceProvider _serviceProvider;
 
-        public RazorViewRenderer(IRazorViewEngine viewEngine, ITempDataProvider tempDataProvider, IServiceProvider serviceProvider)
+        public RazorViewRenderer(IRazorViewEngine viewEngine, ITempDataProvider tempDataProvider, IHttpContextAccessor contextAccessor, IServiceProvider serviceProvider)
         {
             _viewEngine = viewEngine;
             _tempDataProvider = tempDataProvider;
+            _contextAccessor = contextAccessor;
             _serviceProvider = serviceProvider;
         }
 
         public async Task<string> RenderAsync<T>(string viewPath, T model)
         {
-            var actionContext = new ActionContext(new DefaultHttpContext {RequestServices = _serviceProvider}, new RouteData(), new ActionDescriptor());
+            var actionContext = new ActionContext(
+                _contextAccessor.HttpContext ?? new DefaultHttpContext {RequestServices = _serviceProvider},
+                new RouteData(),
+                new ActionDescriptor());
             var view = FindView(viewPath);
 
             using var writer = new StringWriter();

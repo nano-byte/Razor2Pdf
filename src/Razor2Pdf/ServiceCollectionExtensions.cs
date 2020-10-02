@@ -8,7 +8,8 @@ namespace NanoByte.Razor2Pdf
         /// Adds support for rendering Razor Pages as PDFs.
         /// </summary>
         public static IServiceCollection AddRazor2Pdf(this IServiceCollection services)
-            => services.AddTransient<IRazorViewRenderer, RazorViewRenderer>()
+            => services.AddHttpContextAccessor()
+                       .AddTransient<IRazorViewRenderer, RazorViewRenderer>()
                        .AddTransient<IPdfRenderer, PdfRenderer>();
     }
 }
