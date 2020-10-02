@@ -41,6 +41,9 @@ namespace NanoByte.Razor2Pdf
             return new FileStreamResult(stream, contentType: "application/pdf");
         }
 
+        public Task<FileStreamResult> RenderAsync(string viewPath)
+            => RenderAsync(viewPath, new object());
+
         public Task<FileStreamResult> RenderAsync<T>(T model) where T : IPdfModel
             => RenderAsync(model.ViewPath, model);
     }
