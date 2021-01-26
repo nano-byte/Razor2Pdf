@@ -1,9 +1,9 @@
 version: '3'
 services:
   weasyprint-aspnet-core:
-    image: weasyprint/aspnet-core:${NETCORE_VERSION}-${WEASYPRINT_VERSION}
+    image: weasyprint/aspnet-core:${DOTNET_VERSION}-${WEASYPRINT_VERSION}
     build:
       context: .
       args:
-        NETCORE_VERSION: ${NETCORE_VERSION}
+        DOTNET_VERSION: ${DOTNET_VERSION}
         WEASYPRINT_VERSION: ${WEASYPRINT_VERSION}
