@@ -12,7 +12,7 @@ Razor2Pdf renders [APS.NET Core Razor Pages](https://docs.microsoft.com/en-us/as
 
 You can now use dependency injection to get an instance of `IPdfRenderer` and use it like this:
 
-```csharp
+```{.cs}
 FileStreamResult result = await pdfRenderer.RenderAsync("path/to/my/view", new MyViewModel(...));
 ```
 
