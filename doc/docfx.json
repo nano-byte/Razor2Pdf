@@ -1,0 +1,52 @@
+{
+  "metadata": [
+    {
+      "src": [
+        {
+          "src": "../artifacts/Release/netstandard2.0",
+          "files": [
+            "NanoByte.Razor2Pdf*.dll"
+          ]
+        }
+      ],
+      "dest": "api"
+    }
+  ],
+  "build": {
+    "globalMetadata": {
+      "_baseUrl": "https://razor2pdf.nano-byte.net/",
+      "_appTitle": "Razor2Pdf",
+      "_appFooter": "Copyright Bastian Eicher",
+      "_disableBreadcrumb": true,
+      "_enableNewTab": true
+    },
+    "content": [
+      {
+        "files": [
+          "*.md",
+          "toc.yml",
+          "api/*.yml"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "*.png"
+        ]
+      }
+    ],
+    "overwrite": [
+      {
+        "src": "../src/",
+        "files": [
+          "**/*.md"
+        ]
+      }
+    ],
+    "xrefService": [
+      "https://xref.docs.microsoft.com/query?uid={uid}"
+    ],
+    "dest": "../artifacts/Documentation"
+  }
+}

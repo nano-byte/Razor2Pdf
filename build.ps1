@@ -3,6 +3,6 @@ $ErrorActionPreference = "Stop"
 pushd $PSScriptRoot
 
 src\build.ps1 $Version
-doc\build.ps1 $Version
+doc\build.ps1
 
 popd
