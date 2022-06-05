@@ -4,9 +4,7 @@ This Docker image is based on [ASP.NET Core Runtime image](https://hub.docker.co
 
 ## Usage
 
-Reference the docker image `weasyprint/aspnet-core`.
-
-You can optionally [specify a tag](https://hub.docker.com/r/weasyprint/aspnet-core/tags) to control the version of .NET and WeasyPrint to use. For example, the image tagged `5.0.2-52.2` contains .NET 5.0.2 and WeasyPrint 52.2.
+Reference the docker image `weasyprint/aspnet-core:TAG`, where `TAG` is one of the available [image tags](https://hub.docker.com/r/weasyprint/aspnet-core/tags). The tag specified the version of .NET and WeasyPrint used. For example, the image tagged `5.0.5-55.0` contains .NET 6.0.5 and WeasyPrint 55.0.
 
 ## Building
 
