@@ -4,7 +4,7 @@ title: Home
 
 # Razor2Pdf
 
-Razor2Pdf renders [APS.NET Core Razor Pages](https://docs.microsoft.com/en-us/aspnet/core/razor-pages/) as PDFs using [WeasyPrint](https://weasyprint.org/).
+Razor2Pdf renders [ASP.NET Core Razor Pages](https://docs.microsoft.com/en-us/aspnet/core/razor-pages/) as PDFs using [WeasyPrint](https://weasyprint.org/).
 
 ## Usage
 

@@ -1,5 +1,5 @@
 PROJECT_NAME = "Razor2Pdf"
-PROJECT_BRIEF = "Renders APS.NET Core Razor Pages as PDFs using WeasyPrint"
+PROJECT_BRIEF = "Renders ASP.NET Core Razor Pages as PDFs using WeasyPrint"
 PROJECT_NUMBER = $(VERSION)
 
 INPUT = . ../src
