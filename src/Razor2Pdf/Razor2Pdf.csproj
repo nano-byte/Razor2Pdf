@@ -27,7 +27,11 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageTags>Razor;Pages;PDF;WeasyPrint</PackageTags>
     <RepositoryUrl>https://github.com/nano-byte/razor2pdf</RepositoryUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
+  <ItemGroup>
+    <None Include="..\..\README.md" Pack="true" PackagePath="\"/>
+  </ItemGroup>
 
   <!-- Dependencies -->
   <ItemGroup>
