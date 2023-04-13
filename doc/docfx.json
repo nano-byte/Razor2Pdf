@@ -3,10 +3,9 @@
     {
       "src": [
         {
-          "src": "../artifacts/Release/netstandard2.0",
-          "files": [
-            "NanoByte.Razor2Pdf*.dll"
-          ]
+          "src": "../src",
+          "files": ["*/*.csproj"],
+          "exclude": ["UnitTests/*"]
         }
       ],
       "dest": "api"
@@ -29,19 +28,10 @@
         ]
       }
     ],
-    "resource": [
-      {
-        "files": [
-          "*.png"
-        ]
-      }
-    ],
     "overwrite": [
       {
         "src": "../src/",
-        "files": [
-          "**/*.md"
-        ]
+        "files": ["**/*.md"]
       }
     ],
     "xrefService": [
