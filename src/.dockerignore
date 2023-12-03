@@ -1,0 +1,10 @@
+﻿.dockerignore
+Dockerfile
+docker-compose.yml
+
+**/bin/
+**/obj/
+
+.vs/
+.idea/
+_ReSharper.Caches/

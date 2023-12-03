@@ -27,6 +27,11 @@ The source code is in [`src/`](src/), config for building the API documentation 
 
 To build run `.\build.ps1` or `./build.sh` (.NET SDK is automatically downloaded if missing using [0install](https://0install.net/)).
 
+You can use also user Docker Compose to build the library and run the included sample project at http://localhost:8080/:
+
+    cd src
+    docker-compose up
+
 ## Contributing
 
 We welcome contributions to this project such as bug reports, recommendations and pull requests.
