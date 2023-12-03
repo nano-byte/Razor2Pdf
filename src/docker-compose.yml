@@ -1,0 +1,9 @@
+# For trying out Sample.csproj
+
+version: '3'
+services:
+  razor2pdf-sample:
+    build:
+      context: .
+    ports:
+      - "8080:80"
