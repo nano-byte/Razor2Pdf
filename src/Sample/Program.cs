@@ -1,5 +1,11 @@
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.Hosting;
+using NanoByte.Razor2Pdf;
 
-Host.CreateDefaultBuilder(args)
-    .ConfigureWebHostDefaults(webBuilder => webBuilder.UseStartup<Sample.Startup>()).Build().Run();
+var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddRazorPages();
+builder.Services.AddRazor2Pdf();
+
+var app = builder.Build();
+app.UseStaticFiles();
+app.UseRouting();
+app.MapRazorPages();
+app.Run();

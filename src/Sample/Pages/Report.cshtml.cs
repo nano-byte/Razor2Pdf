@@ -7,5 +7,5 @@ public class ReportModel : PageModel, IPdfModel
 {
     public string ViewPath => "/Pages/Report.cshtml";
 
-    public string Name { get; set; }
+    public required string Name { get; set; }
 }
