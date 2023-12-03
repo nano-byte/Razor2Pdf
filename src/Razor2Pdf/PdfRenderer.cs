@@ -13,9 +13,9 @@ namespace NanoByte.Razor2Pdf;
 public class PdfRenderer : IPdfRenderer
 {
     private readonly IRazorViewRenderer _renderer;
-    private readonly IHostingEnvironment _environment;
+    private readonly IWebHostEnvironment _environment;
 
-    public PdfRenderer(IRazorViewRenderer renderer, IHostingEnvironment environment)
+    public PdfRenderer(IRazorViewRenderer renderer, IWebHostEnvironment environment)
     {
         _renderer = renderer;
         _environment = environment;

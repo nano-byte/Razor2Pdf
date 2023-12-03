@@ -40,7 +40,7 @@ public class RazorViewRenderer : IRazorViewRenderer
             new ActionDescriptor());
         var view = FindView(viewPath);
 
-        using var writer = new StringWriter();
+        await using var writer = new StringWriter();
         var viewContext = new ViewContext(
             actionContext,
             view,
