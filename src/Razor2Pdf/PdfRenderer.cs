@@ -21,7 +21,7 @@ public class PdfRenderer : IPdfRenderer
         _environment = environment;
     }
 
-    private static readonly RecyclableMemoryStreamManager _streamManager = new RecyclableMemoryStreamManager();
+    private static readonly RecyclableMemoryStreamManager _streamManager = new();
 
     public async Task<FileStreamResult> RenderAsync<T>(string viewPath, T model)
     {
