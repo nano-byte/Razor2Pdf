@@ -9,7 +9,7 @@
       "automergeType": "branch"
     },
     {
-      "matchPackagePatterns": ["gittools", "SourceLink", "ValueTuple", "RecyclableMemoryStream"],
+      "matchPackagePatterns": ["gittools", "docfx", "SourceLink", "ValueTuple", "RecyclableMemoryStream"],
       "automerge": true,
       "automergeType": "branch"
     }
