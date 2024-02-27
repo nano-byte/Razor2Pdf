@@ -12,7 +12,7 @@ COPY . .
 RUN echo "dummy" > /README.md
 RUN dotnet publish Sample -o /app/publish /p:UseAppHost=false
 
-FROM weasyprint/aspnet-core:7.0.14-60.1
+FROM weasyprint/aspnet-core:8.0.2-61.1
 WORKDIR /app
 COPY --from=build /app/publish .
 EXPOSE 80

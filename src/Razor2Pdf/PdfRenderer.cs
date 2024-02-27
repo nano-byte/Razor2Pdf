@@ -30,7 +30,7 @@ public class PdfRenderer : IPdfRenderer
 
         var result = await
             Command.Run("weasyprint",
-                        new[] {"-", "-"},
+                        ["-", "-"],
                         opts => opts.WorkingDirectory(_environment.WebRootPath))
                    .RedirectFrom(html)
                    .RedirectTo(stream)
