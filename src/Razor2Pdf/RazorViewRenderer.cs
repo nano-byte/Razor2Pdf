@@ -17,25 +17,13 @@ namespace NanoByte.Razor2Pdf;
 /// <summary>
 /// Renders Razor Views in-memory instead of providing an HTTP responses.
 /// </summary>
-public class RazorViewRenderer : IRazorViewRenderer
+public class RazorViewRenderer(IRazorViewEngine viewEngine, ITempDataProvider tempDataProvider, IHttpContextAccessor contextAccessor, IServiceProvider serviceProvider)
+    : IRazorViewRenderer
 {
-    private readonly IRazorViewEngine _viewEngine;
-    private readonly ITempDataProvider _tempDataProvider;
-    private readonly IHttpContextAccessor _contextAccessor;
-    private readonly IServiceProvider _serviceProvider;
-
-    public RazorViewRenderer(IRazorViewEngine viewEngine, ITempDataProvider tempDataProvider, IHttpContextAccessor contextAccessor, IServiceProvider serviceProvider)
-    {
-        _viewEngine = viewEngine;
-        _tempDataProvider = tempDataProvider;
-        _contextAccessor = contextAccessor;
-        _serviceProvider = serviceProvider;
-    }
-
     public async Task<string> RenderAsync<T>(string viewPath, T model)
     {
         var actionContext = new ActionContext(
-            _contextAccessor.HttpContext ?? new DefaultHttpContext {RequestServices = _serviceProvider},
+            contextAccessor.HttpContext ?? new DefaultHttpContext {RequestServices = serviceProvider},
             new RouteData(),
             new ActionDescriptor());
         var view = FindView(viewPath);
@@ -45,7 +33,7 @@ public class RazorViewRenderer : IRazorViewRenderer
             actionContext,
             view,
             new ViewDataDictionary<T>(new EmptyModelMetadataProvider(), new ModelStateDictionary()) {Model = model},
-            new TempDataDictionary(actionContext.HttpContext, _tempDataProvider),
+            new TempDataDictionary(actionContext.HttpContext, tempDataProvider),
             writer,
             new HtmlHelperOptions());
         await view.RenderAsync(viewContext);
@@ -54,7 +42,7 @@ public class RazorViewRenderer : IRazorViewRenderer
 
     private IView FindView(string viewPath)
     {
-        var searchResult = _viewEngine.GetView(null, viewPath, false);
+        var searchResult = viewEngine.GetView(null, viewPath, false);
         if (searchResult.Success)
             return searchResult.View;
         else
