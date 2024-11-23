@@ -5,7 +5,7 @@
     <AssemblyName>NanoByte.Razor2Pdf</AssemblyName>
     <RootNamespace>NanoByte.Razor2Pdf</RootNamespace>
     <LangVersion>13.0</LangVersion>
-    <TargetFrameworks>net6.0;net8.0</TargetFrameworks>
+    <TargetFrameworks>net8.0;net9.0</TargetFrameworks>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
     <NoWarn>$(NoWarn);1591</NoWarn>
