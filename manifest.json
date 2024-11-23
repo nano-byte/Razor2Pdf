@@ -1,0 +1,155 @@
+{
+  "source_base_path": "/home/runner/work/Razor2Pdf/Razor2Pdf/doc",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NanoByte.Razor2Pdf.IPdfModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NanoByte.Razor2Pdf.IPdfModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NanoByte.Razor2Pdf.IPdfRenderer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NanoByte.Razor2Pdf.IPdfRenderer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NanoByte.Razor2Pdf.IRazorViewRenderer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NanoByte.Razor2Pdf.IRazorViewRenderer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NanoByte.Razor2Pdf.PdfRenderer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NanoByte.Razor2Pdf.PdfRenderer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NanoByte.Razor2Pdf.RazorViewRenderer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NanoByte.Razor2Pdf.RazorViewRenderer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NanoByte.Razor2Pdf.ServiceCollectionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NanoByte.Razor2Pdf.ServiceCollectionExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NanoByte.Razor2Pdf.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NanoByte.Razor2Pdf.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sample.Pages.IndexModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sample.Pages.IndexModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sample.Pages.ReportModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sample.Pages.ReportModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sample.Pages.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sample.Pages.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "api/toc.json"
+        },
+        ".html": {
+          "relative_path": "api/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "toc.json"
+        },
+        ".html": {
+          "relative_path": "toc.html"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

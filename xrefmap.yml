@@ -1,0 +1,298 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: NanoByte.Razor2Pdf
+  name: NanoByte.Razor2Pdf
+  href: api/NanoByte.Razor2Pdf.html
+  commentId: N:NanoByte.Razor2Pdf
+  fullName: NanoByte.Razor2Pdf
+  nameWithType: NanoByte.Razor2Pdf
+- uid: NanoByte.Razor2Pdf.IPdfModel
+  name: IPdfModel
+  href: api/NanoByte.Razor2Pdf.IPdfModel.html
+  commentId: T:NanoByte.Razor2Pdf.IPdfModel
+  fullName: NanoByte.Razor2Pdf.IPdfModel
+  nameWithType: IPdfModel
+- uid: NanoByte.Razor2Pdf.IPdfModel.ViewPath
+  name: ViewPath
+  href: api/NanoByte.Razor2Pdf.IPdfModel.html#NanoByte_Razor2Pdf_IPdfModel_ViewPath
+  commentId: P:NanoByte.Razor2Pdf.IPdfModel.ViewPath
+  fullName: NanoByte.Razor2Pdf.IPdfModel.ViewPath
+  nameWithType: IPdfModel.ViewPath
+- uid: NanoByte.Razor2Pdf.IPdfModel.ViewPath*
+  name: ViewPath
+  href: api/NanoByte.Razor2Pdf.IPdfModel.html#NanoByte_Razor2Pdf_IPdfModel_ViewPath_
+  commentId: Overload:NanoByte.Razor2Pdf.IPdfModel.ViewPath
+  isSpec: "True"
+  fullName: NanoByte.Razor2Pdf.IPdfModel.ViewPath
+  nameWithType: IPdfModel.ViewPath
+- uid: NanoByte.Razor2Pdf.IPdfRenderer
+  name: IPdfRenderer
+  href: api/NanoByte.Razor2Pdf.IPdfRenderer.html
+  commentId: T:NanoByte.Razor2Pdf.IPdfRenderer
+  fullName: NanoByte.Razor2Pdf.IPdfRenderer
+  nameWithType: IPdfRenderer
+- uid: NanoByte.Razor2Pdf.IPdfRenderer.RenderAsync(System.String)
+  name: RenderAsync(string)
+  href: api/NanoByte.Razor2Pdf.IPdfRenderer.html#NanoByte_Razor2Pdf_IPdfRenderer_RenderAsync_System_String_
+  commentId: M:NanoByte.Razor2Pdf.IPdfRenderer.RenderAsync(System.String)
+  name.vb: RenderAsync(String)
+  fullName: NanoByte.Razor2Pdf.IPdfRenderer.RenderAsync(string)
+  fullName.vb: NanoByte.Razor2Pdf.IPdfRenderer.RenderAsync(String)
+  nameWithType: IPdfRenderer.RenderAsync(string)
+  nameWithType.vb: IPdfRenderer.RenderAsync(String)
+- uid: NanoByte.Razor2Pdf.IPdfRenderer.RenderAsync*
+  name: RenderAsync
+  href: api/NanoByte.Razor2Pdf.IPdfRenderer.html#NanoByte_Razor2Pdf_IPdfRenderer_RenderAsync_
+  commentId: Overload:NanoByte.Razor2Pdf.IPdfRenderer.RenderAsync
+  isSpec: "True"
+  fullName: NanoByte.Razor2Pdf.IPdfRenderer.RenderAsync
+  nameWithType: IPdfRenderer.RenderAsync
+- uid: NanoByte.Razor2Pdf.IPdfRenderer.RenderAsync``1(System.String,``0)
+  name: RenderAsync<T>(string, T)
+  href: api/NanoByte.Razor2Pdf.IPdfRenderer.html#NanoByte_Razor2Pdf_IPdfRenderer_RenderAsync__1_System_String___0_
+  commentId: M:NanoByte.Razor2Pdf.IPdfRenderer.RenderAsync``1(System.String,``0)
+  name.vb: RenderAsync(Of T)(String, T)
+  fullName: NanoByte.Razor2Pdf.IPdfRenderer.RenderAsync<T>(string, T)
+  fullName.vb: NanoByte.Razor2Pdf.IPdfRenderer.RenderAsync(Of T)(String, T)
+  nameWithType: IPdfRenderer.RenderAsync<T>(string, T)
+  nameWithType.vb: IPdfRenderer.RenderAsync(Of T)(String, T)
+- uid: NanoByte.Razor2Pdf.IPdfRenderer.RenderAsync``1(``0)
+  name: RenderAsync<T>(T)
+  href: api/NanoByte.Razor2Pdf.IPdfRenderer.html#NanoByte_Razor2Pdf_IPdfRenderer_RenderAsync__1___0_
+  commentId: M:NanoByte.Razor2Pdf.IPdfRenderer.RenderAsync``1(``0)
+  name.vb: RenderAsync(Of T)(T)
+  fullName: NanoByte.Razor2Pdf.IPdfRenderer.RenderAsync<T>(T)
+  fullName.vb: NanoByte.Razor2Pdf.IPdfRenderer.RenderAsync(Of T)(T)
+  nameWithType: IPdfRenderer.RenderAsync<T>(T)
+  nameWithType.vb: IPdfRenderer.RenderAsync(Of T)(T)
+- uid: NanoByte.Razor2Pdf.IRazorViewRenderer
+  name: IRazorViewRenderer
+  href: api/NanoByte.Razor2Pdf.IRazorViewRenderer.html
+  commentId: T:NanoByte.Razor2Pdf.IRazorViewRenderer
+  fullName: NanoByte.Razor2Pdf.IRazorViewRenderer
+  nameWithType: IRazorViewRenderer
+- uid: NanoByte.Razor2Pdf.IRazorViewRenderer.RenderAsync*
+  name: RenderAsync
+  href: api/NanoByte.Razor2Pdf.IRazorViewRenderer.html#NanoByte_Razor2Pdf_IRazorViewRenderer_RenderAsync_
+  commentId: Overload:NanoByte.Razor2Pdf.IRazorViewRenderer.RenderAsync
+  isSpec: "True"
+  fullName: NanoByte.Razor2Pdf.IRazorViewRenderer.RenderAsync
+  nameWithType: IRazorViewRenderer.RenderAsync
+- uid: NanoByte.Razor2Pdf.IRazorViewRenderer.RenderAsync``1(System.String,``0)
+  name: RenderAsync<T>(string, T)
+  href: api/NanoByte.Razor2Pdf.IRazorViewRenderer.html#NanoByte_Razor2Pdf_IRazorViewRenderer_RenderAsync__1_System_String___0_
+  commentId: M:NanoByte.Razor2Pdf.IRazorViewRenderer.RenderAsync``1(System.String,``0)
+  name.vb: RenderAsync(Of T)(String, T)
+  fullName: NanoByte.Razor2Pdf.IRazorViewRenderer.RenderAsync<T>(string, T)
+  fullName.vb: NanoByte.Razor2Pdf.IRazorViewRenderer.RenderAsync(Of T)(String, T)
+  nameWithType: IRazorViewRenderer.RenderAsync<T>(string, T)
+  nameWithType.vb: IRazorViewRenderer.RenderAsync(Of T)(String, T)
+- uid: NanoByte.Razor2Pdf.PdfRenderer
+  name: PdfRenderer
+  href: api/NanoByte.Razor2Pdf.PdfRenderer.html
+  commentId: T:NanoByte.Razor2Pdf.PdfRenderer
+  fullName: NanoByte.Razor2Pdf.PdfRenderer
+  nameWithType: PdfRenderer
+- uid: NanoByte.Razor2Pdf.PdfRenderer.#ctor(NanoByte.Razor2Pdf.IRazorViewRenderer,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)
+  name: PdfRenderer(IRazorViewRenderer, IWebHostEnvironment)
+  href: api/NanoByte.Razor2Pdf.PdfRenderer.html#NanoByte_Razor2Pdf_PdfRenderer__ctor_NanoByte_Razor2Pdf_IRazorViewRenderer_Microsoft_AspNetCore_Hosting_IWebHostEnvironment_
+  commentId: M:NanoByte.Razor2Pdf.PdfRenderer.#ctor(NanoByte.Razor2Pdf.IRazorViewRenderer,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)
+  name.vb: New(IRazorViewRenderer, IWebHostEnvironment)
+  fullName: NanoByte.Razor2Pdf.PdfRenderer.PdfRenderer(NanoByte.Razor2Pdf.IRazorViewRenderer, Microsoft.AspNetCore.Hosting.IWebHostEnvironment)
+  fullName.vb: NanoByte.Razor2Pdf.PdfRenderer.New(NanoByte.Razor2Pdf.IRazorViewRenderer, Microsoft.AspNetCore.Hosting.IWebHostEnvironment)
+  nameWithType: PdfRenderer.PdfRenderer(IRazorViewRenderer, IWebHostEnvironment)
+  nameWithType.vb: PdfRenderer.New(IRazorViewRenderer, IWebHostEnvironment)
+- uid: NanoByte.Razor2Pdf.PdfRenderer.#ctor*
+  name: PdfRenderer
+  href: api/NanoByte.Razor2Pdf.PdfRenderer.html#NanoByte_Razor2Pdf_PdfRenderer__ctor_
+  commentId: Overload:NanoByte.Razor2Pdf.PdfRenderer.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NanoByte.Razor2Pdf.PdfRenderer.PdfRenderer
+  fullName.vb: NanoByte.Razor2Pdf.PdfRenderer.New
+  nameWithType: PdfRenderer.PdfRenderer
+  nameWithType.vb: PdfRenderer.New
+- uid: NanoByte.Razor2Pdf.PdfRenderer.RenderAsync(System.String)
+  name: RenderAsync(string)
+  href: api/NanoByte.Razor2Pdf.PdfRenderer.html#NanoByte_Razor2Pdf_PdfRenderer_RenderAsync_System_String_
+  commentId: M:NanoByte.Razor2Pdf.PdfRenderer.RenderAsync(System.String)
+  name.vb: RenderAsync(String)
+  fullName: NanoByte.Razor2Pdf.PdfRenderer.RenderAsync(string)
+  fullName.vb: NanoByte.Razor2Pdf.PdfRenderer.RenderAsync(String)
+  nameWithType: PdfRenderer.RenderAsync(string)
+  nameWithType.vb: PdfRenderer.RenderAsync(String)
+- uid: NanoByte.Razor2Pdf.PdfRenderer.RenderAsync*
+  name: RenderAsync
+  href: api/NanoByte.Razor2Pdf.PdfRenderer.html#NanoByte_Razor2Pdf_PdfRenderer_RenderAsync_
+  commentId: Overload:NanoByte.Razor2Pdf.PdfRenderer.RenderAsync
+  isSpec: "True"
+  fullName: NanoByte.Razor2Pdf.PdfRenderer.RenderAsync
+  nameWithType: PdfRenderer.RenderAsync
+- uid: NanoByte.Razor2Pdf.PdfRenderer.RenderAsync``1(System.String,``0)
+  name: RenderAsync<T>(string, T)
+  href: api/NanoByte.Razor2Pdf.PdfRenderer.html#NanoByte_Razor2Pdf_PdfRenderer_RenderAsync__1_System_String___0_
+  commentId: M:NanoByte.Razor2Pdf.PdfRenderer.RenderAsync``1(System.String,``0)
+  name.vb: RenderAsync(Of T)(String, T)
+  fullName: NanoByte.Razor2Pdf.PdfRenderer.RenderAsync<T>(string, T)
+  fullName.vb: NanoByte.Razor2Pdf.PdfRenderer.RenderAsync(Of T)(String, T)
+  nameWithType: PdfRenderer.RenderAsync<T>(string, T)
+  nameWithType.vb: PdfRenderer.RenderAsync(Of T)(String, T)
+- uid: NanoByte.Razor2Pdf.PdfRenderer.RenderAsync``1(``0)
+  name: RenderAsync<T>(T)
+  href: api/NanoByte.Razor2Pdf.PdfRenderer.html#NanoByte_Razor2Pdf_PdfRenderer_RenderAsync__1___0_
+  commentId: M:NanoByte.Razor2Pdf.PdfRenderer.RenderAsync``1(``0)
+  name.vb: RenderAsync(Of T)(T)
+  fullName: NanoByte.Razor2Pdf.PdfRenderer.RenderAsync<T>(T)
+  fullName.vb: NanoByte.Razor2Pdf.PdfRenderer.RenderAsync(Of T)(T)
+  nameWithType: PdfRenderer.RenderAsync<T>(T)
+  nameWithType.vb: PdfRenderer.RenderAsync(Of T)(T)
+- uid: NanoByte.Razor2Pdf.RazorViewRenderer
+  name: RazorViewRenderer
+  href: api/NanoByte.Razor2Pdf.RazorViewRenderer.html
+  commentId: T:NanoByte.Razor2Pdf.RazorViewRenderer
+  fullName: NanoByte.Razor2Pdf.RazorViewRenderer
+  nameWithType: RazorViewRenderer
+- uid: NanoByte.Razor2Pdf.RazorViewRenderer.#ctor(Microsoft.AspNetCore.Mvc.Razor.IRazorViewEngine,Microsoft.AspNetCore.Mvc.ViewFeatures.ITempDataProvider,Microsoft.AspNetCore.Http.IHttpContextAccessor,System.IServiceProvider)
+  name: RazorViewRenderer(IRazorViewEngine, ITempDataProvider, IHttpContextAccessor, IServiceProvider)
+  href: api/NanoByte.Razor2Pdf.RazorViewRenderer.html#NanoByte_Razor2Pdf_RazorViewRenderer__ctor_Microsoft_AspNetCore_Mvc_Razor_IRazorViewEngine_Microsoft_AspNetCore_Mvc_ViewFeatures_ITempDataProvider_Microsoft_AspNetCore_Http_IHttpContextAccessor_System_IServiceProvider_
+  commentId: M:NanoByte.Razor2Pdf.RazorViewRenderer.#ctor(Microsoft.AspNetCore.Mvc.Razor.IRazorViewEngine,Microsoft.AspNetCore.Mvc.ViewFeatures.ITempDataProvider,Microsoft.AspNetCore.Http.IHttpContextAccessor,System.IServiceProvider)
+  name.vb: New(IRazorViewEngine, ITempDataProvider, IHttpContextAccessor, IServiceProvider)
+  fullName: NanoByte.Razor2Pdf.RazorViewRenderer.RazorViewRenderer(Microsoft.AspNetCore.Mvc.Razor.IRazorViewEngine, Microsoft.AspNetCore.Mvc.ViewFeatures.ITempDataProvider, Microsoft.AspNetCore.Http.IHttpContextAccessor, System.IServiceProvider)
+  fullName.vb: NanoByte.Razor2Pdf.RazorViewRenderer.New(Microsoft.AspNetCore.Mvc.Razor.IRazorViewEngine, Microsoft.AspNetCore.Mvc.ViewFeatures.ITempDataProvider, Microsoft.AspNetCore.Http.IHttpContextAccessor, System.IServiceProvider)
+  nameWithType: RazorViewRenderer.RazorViewRenderer(IRazorViewEngine, ITempDataProvider, IHttpContextAccessor, IServiceProvider)
+  nameWithType.vb: RazorViewRenderer.New(IRazorViewEngine, ITempDataProvider, IHttpContextAccessor, IServiceProvider)
+- uid: NanoByte.Razor2Pdf.RazorViewRenderer.#ctor*
+  name: RazorViewRenderer
+  href: api/NanoByte.Razor2Pdf.RazorViewRenderer.html#NanoByte_Razor2Pdf_RazorViewRenderer__ctor_
+  commentId: Overload:NanoByte.Razor2Pdf.RazorViewRenderer.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NanoByte.Razor2Pdf.RazorViewRenderer.RazorViewRenderer
+  fullName.vb: NanoByte.Razor2Pdf.RazorViewRenderer.New
+  nameWithType: RazorViewRenderer.RazorViewRenderer
+  nameWithType.vb: RazorViewRenderer.New
+- uid: NanoByte.Razor2Pdf.RazorViewRenderer.RenderAsync*
+  name: RenderAsync
+  href: api/NanoByte.Razor2Pdf.RazorViewRenderer.html#NanoByte_Razor2Pdf_RazorViewRenderer_RenderAsync_
+  commentId: Overload:NanoByte.Razor2Pdf.RazorViewRenderer.RenderAsync
+  isSpec: "True"
+  fullName: NanoByte.Razor2Pdf.RazorViewRenderer.RenderAsync
+  nameWithType: RazorViewRenderer.RenderAsync
+- uid: NanoByte.Razor2Pdf.RazorViewRenderer.RenderAsync``1(System.String,``0)
+  name: RenderAsync<T>(string, T)
+  href: api/NanoByte.Razor2Pdf.RazorViewRenderer.html#NanoByte_Razor2Pdf_RazorViewRenderer_RenderAsync__1_System_String___0_
+  commentId: M:NanoByte.Razor2Pdf.RazorViewRenderer.RenderAsync``1(System.String,``0)
+  name.vb: RenderAsync(Of T)(String, T)
+  fullName: NanoByte.Razor2Pdf.RazorViewRenderer.RenderAsync<T>(string, T)
+  fullName.vb: NanoByte.Razor2Pdf.RazorViewRenderer.RenderAsync(Of T)(String, T)
+  nameWithType: RazorViewRenderer.RenderAsync<T>(string, T)
+  nameWithType.vb: RazorViewRenderer.RenderAsync(Of T)(String, T)
+- uid: NanoByte.Razor2Pdf.ServiceCollectionExtensions
+  name: ServiceCollectionExtensions
+  href: api/NanoByte.Razor2Pdf.ServiceCollectionExtensions.html
+  commentId: T:NanoByte.Razor2Pdf.ServiceCollectionExtensions
+  fullName: NanoByte.Razor2Pdf.ServiceCollectionExtensions
+  nameWithType: ServiceCollectionExtensions
+- uid: NanoByte.Razor2Pdf.ServiceCollectionExtensions.AddRazor2Pdf(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  name: AddRazor2Pdf(IServiceCollection)
+  href: api/NanoByte.Razor2Pdf.ServiceCollectionExtensions.html#NanoByte_Razor2Pdf_ServiceCollectionExtensions_AddRazor2Pdf_Microsoft_Extensions_DependencyInjection_IServiceCollection_
+  commentId: M:NanoByte.Razor2Pdf.ServiceCollectionExtensions.AddRazor2Pdf(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  fullName: NanoByte.Razor2Pdf.ServiceCollectionExtensions.AddRazor2Pdf(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  nameWithType: ServiceCollectionExtensions.AddRazor2Pdf(IServiceCollection)
+- uid: NanoByte.Razor2Pdf.ServiceCollectionExtensions.AddRazor2Pdf*
+  name: AddRazor2Pdf
+  href: api/NanoByte.Razor2Pdf.ServiceCollectionExtensions.html#NanoByte_Razor2Pdf_ServiceCollectionExtensions_AddRazor2Pdf_
+  commentId: Overload:NanoByte.Razor2Pdf.ServiceCollectionExtensions.AddRazor2Pdf
+  isSpec: "True"
+  fullName: NanoByte.Razor2Pdf.ServiceCollectionExtensions.AddRazor2Pdf
+  nameWithType: ServiceCollectionExtensions.AddRazor2Pdf
+- uid: Sample.Pages
+  name: Sample.Pages
+  href: api/Sample.Pages.html
+  commentId: N:Sample.Pages
+  fullName: Sample.Pages
+  nameWithType: Sample.Pages
+- uid: Sample.Pages.IndexModel
+  name: IndexModel
+  href: api/Sample.Pages.IndexModel.html
+  commentId: T:Sample.Pages.IndexModel
+  fullName: Sample.Pages.IndexModel
+  nameWithType: IndexModel
+- uid: Sample.Pages.IndexModel.#ctor(NanoByte.Razor2Pdf.IPdfRenderer)
+  name: IndexModel(IPdfRenderer)
+  href: api/Sample.Pages.IndexModel.html#Sample_Pages_IndexModel__ctor_NanoByte_Razor2Pdf_IPdfRenderer_
+  commentId: M:Sample.Pages.IndexModel.#ctor(NanoByte.Razor2Pdf.IPdfRenderer)
+  name.vb: New(IPdfRenderer)
+  fullName: Sample.Pages.IndexModel.IndexModel(NanoByte.Razor2Pdf.IPdfRenderer)
+  fullName.vb: Sample.Pages.IndexModel.New(NanoByte.Razor2Pdf.IPdfRenderer)
+  nameWithType: IndexModel.IndexModel(IPdfRenderer)
+  nameWithType.vb: IndexModel.New(IPdfRenderer)
+- uid: Sample.Pages.IndexModel.#ctor*
+  name: IndexModel
+  href: api/Sample.Pages.IndexModel.html#Sample_Pages_IndexModel__ctor_
+  commentId: Overload:Sample.Pages.IndexModel.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Sample.Pages.IndexModel.IndexModel
+  fullName.vb: Sample.Pages.IndexModel.New
+  nameWithType: IndexModel.IndexModel
+  nameWithType.vb: IndexModel.New
+- uid: Sample.Pages.IndexModel.Name
+  name: Name
+  href: api/Sample.Pages.IndexModel.html#Sample_Pages_IndexModel_Name
+  commentId: P:Sample.Pages.IndexModel.Name
+  fullName: Sample.Pages.IndexModel.Name
+  nameWithType: IndexModel.Name
+- uid: Sample.Pages.IndexModel.Name*
+  name: Name
+  href: api/Sample.Pages.IndexModel.html#Sample_Pages_IndexModel_Name_
+  commentId: Overload:Sample.Pages.IndexModel.Name
+  isSpec: "True"
+  fullName: Sample.Pages.IndexModel.Name
+  nameWithType: IndexModel.Name
+- uid: Sample.Pages.IndexModel.OnPostReportAsync
+  name: OnPostReportAsync()
+  href: api/Sample.Pages.IndexModel.html#Sample_Pages_IndexModel_OnPostReportAsync
+  commentId: M:Sample.Pages.IndexModel.OnPostReportAsync
+  fullName: Sample.Pages.IndexModel.OnPostReportAsync()
+  nameWithType: IndexModel.OnPostReportAsync()
+- uid: Sample.Pages.IndexModel.OnPostReportAsync*
+  name: OnPostReportAsync
+  href: api/Sample.Pages.IndexModel.html#Sample_Pages_IndexModel_OnPostReportAsync_
+  commentId: Overload:Sample.Pages.IndexModel.OnPostReportAsync
+  isSpec: "True"
+  fullName: Sample.Pages.IndexModel.OnPostReportAsync
+  nameWithType: IndexModel.OnPostReportAsync
+- uid: Sample.Pages.ReportModel
+  name: ReportModel
+  href: api/Sample.Pages.ReportModel.html
+  commentId: T:Sample.Pages.ReportModel
+  fullName: Sample.Pages.ReportModel
+  nameWithType: ReportModel
+- uid: Sample.Pages.ReportModel.Name
+  name: Name
+  href: api/Sample.Pages.ReportModel.html#Sample_Pages_ReportModel_Name
+  commentId: P:Sample.Pages.ReportModel.Name
+  fullName: Sample.Pages.ReportModel.Name
+  nameWithType: ReportModel.Name
+- uid: Sample.Pages.ReportModel.Name*
+  name: Name
+  href: api/Sample.Pages.ReportModel.html#Sample_Pages_ReportModel_Name_
+  commentId: Overload:Sample.Pages.ReportModel.Name
+  isSpec: "True"
+  fullName: Sample.Pages.ReportModel.Name
+  nameWithType: ReportModel.Name
+- uid: Sample.Pages.ReportModel.ViewPath
+  name: ViewPath
+  href: api/Sample.Pages.ReportModel.html#Sample_Pages_ReportModel_ViewPath
+  commentId: P:Sample.Pages.ReportModel.ViewPath
+  fullName: Sample.Pages.ReportModel.ViewPath
+  nameWithType: ReportModel.ViewPath
+- uid: Sample.Pages.ReportModel.ViewPath*
+  name: ViewPath
+  href: api/Sample.Pages.ReportModel.html#Sample_Pages_ReportModel_ViewPath_
+  commentId: Overload:Sample.Pages.ReportModel.ViewPath
+  isSpec: "True"
+  fullName: Sample.Pages.ReportModel.ViewPath
+  nameWithType: ReportModel.ViewPath
