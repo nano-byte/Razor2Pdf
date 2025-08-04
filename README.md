@@ -1,6 +1,6 @@
 # Razor2Pdf
 
-[![Build](https://github.com/nano-byte/Razor2Pdf/workflows/Build/badge.svg?branch=master)](https://github.com/nano-byte/Razor2Pdf/actions?query=workflow%3ABuild)
+[![Build](https://github.com/nano-byte/Razor2Pdf/actions/workflows/build.yml/badge.svg)](https://github.com/nano-byte/Razor2Pdf/actions/workflows/build.yml)
 [![NuGet](https://img.shields.io/nuget/v/NanoByte.Razor2Pdf.svg)](https://www.nuget.org/packages/NanoByte.Razor2Pdf/)
 [![API documentation](https://img.shields.io/badge/api-docs-orange.svg)](https://razor2pdf.nano-byte.net/)  
 Razor2Pdf renders [ASP.NET Core Razor Pages](https://learn.microsoft.com/en-us/aspnet/core/razor-pages/) as PDFs using [WeasyPrint](https://weasyprint.org/).
