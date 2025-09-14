@@ -20,9 +20,7 @@ public class PdfRenderer(IRazorViewRenderer renderer, IWebHostEnvironment enviro
         var stream = _streamManager.GetStream();
 
         var result = await
-            Command.Run("weasyprint",
-                        ["-", "-"],
-                        opts => opts.WorkingDirectory(environment.WebRootPath))
+            Command.Run("weasyprint", ["-", "-"], opts => opts.WorkingDirectory(environment.WebRootPath))
                    .RedirectFrom(html)
                    .RedirectTo(stream)
                    .Task;
