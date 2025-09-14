@@ -1,6 +1,6 @@
 # ASP.NET Core Runtime and WeasyPrint Docker image
 
-This Docker image is based on [ASP.NET Core Runtime image](https://hub.docker.com/_/microsoft-dotnet-aspnet/) and adds [WeasyPrint](https://weasyprint.org/). This can be used to build .NET webapps that shell out to WeasyPrint for generating PDFs.
+This Docker image is based on [ASP.NET Core Runtime image](https://hub.docker.com/r/microsoft/dotnet-aspnet) and adds [WeasyPrint](https://weasyprint.org/). This can be used to build .NET webapps that shell out to WeasyPrint for generating PDFs.
 
 ## Usage
 
