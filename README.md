@@ -8,7 +8,7 @@ Razor2Pdf renders [ASP.NET Core Razor Pages](https://learn.microsoft.com/en-us/a
 ## Usage
 
 1. Ensure that the `weasyprint` command is in your `PATH`. You can:
-   - follow the [WeasyPrint installation instructions](https://weasyprint.readthedocs.io/en/stable/install.html) or
+   - follow the [WeasyPrint installation instructions](https://doc.courtbouillon.org/weasyprint/stable/first_steps.html) or
    - use our [ASP.NET Core Runtime and WeasyPrint Docker image](docker/).
 2. Add a reference to the [`NanoByte.Razor2Pdf`](https://www.nuget.org/packages/NanoByte.Razor2Pdf/) NuGet package to your project.
 3. Add a call to `services.AddRazor2Pdf()` in your `ConfigureServices()` method in `Startup.cs`.
