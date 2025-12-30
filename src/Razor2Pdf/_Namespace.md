@@ -1,5 +1,4 @@
 ---
 uid: NanoByte.Razor2Pdf
-summary: *content
+summary: Renders Razor Pages as PDFs.
 ---
-Renders Razor Pages as PDFs.
