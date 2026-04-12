@@ -8,6 +8,9 @@
           "exclude": ["UnitTests/*"]
         }
       ],
+      "properties": {
+        "TargetFramework": "net10.0"
+      },
       "dest": "api",
       "filter": "filterConfig.yml"
     }
