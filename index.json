@@ -1,0 +1,42 @@
+{
+  "api/NanoByte.Razor2Pdf.IPdfModel.html": {
+    "href": "api/NanoByte.Razor2Pdf.IPdfModel.html",
+    "title": "Interface IPdfModel | Razor2Pdf",
+    "summary": "Interface IPdfModel Namespace NanoByte.Razor2Pdf Assembly NanoByte.Razor2Pdf.dll Interface for Razor Page Models for use with by PdfRenderer. public interface IPdfModel Properties ViewPath The path of the Razor View associated with this model. string ViewPath { get; } Property Value string"
+  },
+  "api/NanoByte.Razor2Pdf.IPdfRenderer.html": {
+    "href": "api/NanoByte.Razor2Pdf.IPdfRenderer.html",
+    "title": "Interface IPdfRenderer | Razor2Pdf",
+    "summary": "Interface IPdfRenderer Namespace NanoByte.Razor2Pdf Assembly NanoByte.Razor2Pdf.dll Renders Razor Pages as PDFs. public interface IPdfRenderer Methods RenderAsync(string) Renders a Razor View as a PDF. Task<FileStreamResult> RenderAsync(string viewPath) Parameters viewPath string The path of the Razor View to render. Returns Task<FileStreamResult> RenderAsync<T>(string, T) Renders a Razor View as a PDF. Task<FileStreamResult> RenderAsync<T>(string viewPath, T model) Parameters viewPath string The path of the Razor View to render. model T The model to pass to the Razor View. Returns Task<FileStreamResult> Type Parameters T RenderAsync<T>(T) Renders a Razor View as a PDF. Task<FileStreamResult> RenderAsync<T>(T model) where T : IPdfModel Parameters model T The model for the view to render. Returns Task<FileStreamResult> Type Parameters T"
+  },
+  "api/NanoByte.Razor2Pdf.IRazorViewRenderer.html": {
+    "href": "api/NanoByte.Razor2Pdf.IRazorViewRenderer.html",
+    "title": "Interface IRazorViewRenderer | Razor2Pdf",
+    "summary": "Interface IRazorViewRenderer Namespace NanoByte.Razor2Pdf Assembly NanoByte.Razor2Pdf.dll Renders Razor Views in-memory instead of providing an HTTP responses. public interface IRazorViewRenderer Methods RenderAsync<T>(string, T) Renders a Razor View. Task<string> RenderAsync<T>(string viewPath, T model) Parameters viewPath string The path of the Razor View to render. model T The model to pass to the Razor View. Returns Task<string> Type Parameters T"
+  },
+  "api/NanoByte.Razor2Pdf.PdfRenderer.html": {
+    "href": "api/NanoByte.Razor2Pdf.PdfRenderer.html",
+    "title": "Class PdfRenderer | Razor2Pdf",
+    "summary": "Class PdfRenderer Namespace NanoByte.Razor2Pdf Assembly NanoByte.Razor2Pdf.dll Renders Razor Pages as PDFs. public class PdfRenderer : IPdfRenderer Inheritance object PdfRenderer Implements IPdfRenderer Constructors PdfRenderer(IRazorViewRenderer, IWebHostEnvironment) Renders Razor Pages as PDFs. public PdfRenderer(IRazorViewRenderer renderer, IWebHostEnvironment environment) Parameters renderer IRazorViewRenderer environment IWebHostEnvironment Methods RenderAsync(string) Renders a Razor View as a PDF. public Task<FileStreamResult> RenderAsync(string viewPath) Parameters viewPath string The path of the Razor View to render. Returns Task<FileStreamResult> RenderAsync<T>(string, T) Renders a Razor View as a PDF. public Task<FileStreamResult> RenderAsync<T>(string viewPath, T model) Parameters viewPath string The path of the Razor View to render. model T The model to pass to the Razor View. Returns Task<FileStreamResult> Type Parameters T RenderAsync<T>(T) Renders a Razor View as a PDF. public Task<FileStreamResult> RenderAsync<T>(T model) where T : IPdfModel Parameters model T The model for the view to render. Returns Task<FileStreamResult> Type Parameters T"
+  },
+  "api/NanoByte.Razor2Pdf.RazorViewRenderer.html": {
+    "href": "api/NanoByte.Razor2Pdf.RazorViewRenderer.html",
+    "title": "Class RazorViewRenderer | Razor2Pdf",
+    "summary": "Class RazorViewRenderer Namespace NanoByte.Razor2Pdf Assembly NanoByte.Razor2Pdf.dll Renders Razor Views in-memory instead of providing an HTTP responses. public class RazorViewRenderer : IRazorViewRenderer Inheritance object RazorViewRenderer Implements IRazorViewRenderer Constructors RazorViewRenderer(IRazorViewEngine, ITempDataProvider, IHttpContextAccessor, IServiceProvider) Renders Razor Views in-memory instead of providing an HTTP responses. public RazorViewRenderer(IRazorViewEngine viewEngine, ITempDataProvider tempDataProvider, IHttpContextAccessor contextAccessor, IServiceProvider serviceProvider) Parameters viewEngine IRazorViewEngine tempDataProvider ITempDataProvider contextAccessor IHttpContextAccessor serviceProvider IServiceProvider Methods RenderAsync<T>(string, T) Renders a Razor View. public Task<string> RenderAsync<T>(string viewPath, T model) Parameters viewPath string The path of the Razor View to render. model T The model to pass to the Razor View. Returns Task<string> Type Parameters T"
+  },
+  "api/NanoByte.Razor2Pdf.ServiceCollectionExtensions.html": {
+    "href": "api/NanoByte.Razor2Pdf.ServiceCollectionExtensions.html",
+    "title": "Class ServiceCollectionExtensions | Razor2Pdf",
+    "summary": "Class ServiceCollectionExtensions Namespace NanoByte.Razor2Pdf Assembly NanoByte.Razor2Pdf.dll public static class ServiceCollectionExtensions Inheritance object ServiceCollectionExtensions Methods AddRazor2Pdf(IServiceCollection) Adds support for rendering Razor Pages as PDFs. public static IServiceCollection AddRazor2Pdf(this IServiceCollection services) Parameters services IServiceCollection Returns IServiceCollection"
+  },
+  "api/NanoByte.Razor2Pdf.html": {
+    "href": "api/NanoByte.Razor2Pdf.html",
+    "title": "Namespace NanoByte.Razor2Pdf | Razor2Pdf",
+    "summary": "Namespace NanoByte.Razor2Pdf Renders Razor Pages as PDFs. Classes PdfRenderer Renders Razor Pages as PDFs. RazorViewRenderer Renders Razor Views in-memory instead of providing an HTTP responses. ServiceCollectionExtensions Interfaces IPdfModel Interface for Razor Page Models for use with by PdfRenderer. IPdfRenderer Renders Razor Pages as PDFs. IRazorViewRenderer Renders Razor Views in-memory instead of providing an HTTP responses."
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "Home | Razor2Pdf",
+    "summary": "Razor2Pdf Razor2Pdf renders ASP.NET Core Razor Pages as PDFs using WeasyPrint. Usage Ensure that the weasyprint command is in your PATH. You can: follow the WeasyPrint installation instructions or use our ASP.NET Core Runtime and WeasyPrint Docker image. Add a reference to the NanoByte.Razor2Pdf NuGet package to your project. Add a call to services.AddRazor2Pdf() in your ConfigureServices() method in Startup.cs. You can now use dependency injection to get an instance of IPdfRenderer and use it like this: FileStreamResult result = await pdfRenderer.RenderAsync(\"path/to/my/view\", new MyViewModel(...)); See the sample project for more details."
+  }
+}

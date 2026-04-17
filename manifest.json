@@ -1,0 +1,153 @@
+{
+  "source_base_path": "/home/runner/work/Razor2Pdf/Razor2Pdf/doc",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NanoByte.Razor2Pdf.IPdfModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NanoByte.Razor2Pdf.IPdfModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NanoByte.Razor2Pdf.IPdfModel",
+      "Summary": "<p sourcefile=\"api/NanoByte.Razor2Pdf.IPdfModel.yml\" sourcestartlinenumber=\"1\">Interface for Razor Page Models for use with by <xref href=\"NanoByte.Razor2Pdf.PdfRenderer\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NanoByte.Razor2Pdf.IPdfRenderer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NanoByte.Razor2Pdf.IPdfRenderer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NanoByte.Razor2Pdf.IPdfRenderer",
+      "Summary": "<p sourcefile=\"api/NanoByte.Razor2Pdf.IPdfRenderer.yml\" sourcestartlinenumber=\"1\">Renders Razor Pages as PDFs.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NanoByte.Razor2Pdf.IRazorViewRenderer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NanoByte.Razor2Pdf.IRazorViewRenderer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NanoByte.Razor2Pdf.IRazorViewRenderer",
+      "Summary": "<p sourcefile=\"api/NanoByte.Razor2Pdf.IRazorViewRenderer.yml\" sourcestartlinenumber=\"1\">Renders Razor Views in-memory instead of providing an HTTP responses.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NanoByte.Razor2Pdf.PdfRenderer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NanoByte.Razor2Pdf.PdfRenderer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NanoByte.Razor2Pdf.PdfRenderer",
+      "Summary": "<p sourcefile=\"api/NanoByte.Razor2Pdf.PdfRenderer.yml\" sourcestartlinenumber=\"1\">Renders Razor Pages as PDFs.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NanoByte.Razor2Pdf.RazorViewRenderer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NanoByte.Razor2Pdf.RazorViewRenderer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NanoByte.Razor2Pdf.RazorViewRenderer",
+      "Summary": "<p sourcefile=\"api/NanoByte.Razor2Pdf.RazorViewRenderer.yml\" sourcestartlinenumber=\"1\">Renders Razor Views in-memory instead of providing an HTTP responses.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NanoByte.Razor2Pdf.ServiceCollectionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NanoByte.Razor2Pdf.ServiceCollectionExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NanoByte.Razor2Pdf.ServiceCollectionExtensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NanoByte.Razor2Pdf.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NanoByte.Razor2Pdf.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NanoByte.Razor2Pdf",
+      "Summary": "<p sourcefile=\"../src/Razor2Pdf/_Namespace.md\" sourcestartlinenumber=\"1\">Renders Razor Pages as PDFs.</p>\n"
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
